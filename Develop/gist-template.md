@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex
 
 Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Brief summary of the regex with a description and explanation:
 
 ## Table of Contents
 
@@ -46,4 +46,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+For any other issues or comments please contact me at:
+
+GitHub username: RamRod79
+
+GitHub: https://github.com/RamRod79/Employee-tracker.git
+
+Email: armando.rod79@gmail.com
