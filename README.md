@@ -36,7 +36,7 @@ The quantifier match between 2 and 6.
 
 ## Regex Components
 
-### Anchors:
+### Anchors, Boundaries:
 
 Some regex tokens do not consume characters. They just assert the matching engine is at a particular place.
 
@@ -48,13 +48,13 @@ $: End of string
 
 Quantifiers set the limits of the string that the regex matches. This exapmple uses:
 
-+ Quantifier to 1 or more of the preceding Bracket expressions within group 1 and does it again in group 2.
+"+" Quantifier to 1 or more of the preceding Bracket expressions within group 1 and does it again in group 2.
 
 {2,6} Quantifier within the {} provides pattern match between min of 2 and a max of 6 for the preceding bracket expression.
 
 ### OR Operator:
 
-The OR operator is expressed by (|), but is not contianed in this regex example.
+The OR operator is expressed by ( | ), but is not contianed in this regex example.
 
 ### Character Classes:
 
@@ -76,19 +76,25 @@ There are no flags within this example.
 
 ### Grouping and Capturing:
 
-The primary way you group a section of a regex is by using parentheses (()). There are three Groups within the boundries to help break up the email matching into separate segments.
+The primary way you group a section of a regex is by using parentheses ( () ). There are three Groups within the boundries to help break up the email matching into separate segments.
 
 ### Bracket Expressions:
 
-Inside a set of square brackets ([]) represents a range of characters that we want to match. This represent the three separate group matches within the email match.
+Inside a set of square brackets ( [] ) represents a range of characters that we want to match. This represent the three separate group matches within the email match.
 
-### Greedy and Lazy Match:
+### Greedy Match:
 
-### Boundaries:
+Quantifiers like * and + are "greedy", meaning that they try to match as much of the string as possible.
+
+"+" Quantifier to 1 or more of the preceding Bracket expressions within group 1 and does it again in group 2.
 
 ### Back-references:
 
+[\b] Matches a backspace. If you're looking for the word-boundary character (\b), this example did not contian a back-reference.
+
 ### Look-ahead and Look-behind:
+
+Lookarounds do not consume anything. There are typically Look-aheads and Look-behinds and they can be positive or negative. They attempt to match if followed by a varibale or proceeded by it. This example did not contain those tokens. 
 
 ## Author
 
